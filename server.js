@@ -42,7 +42,13 @@ app.use('/api/admin', tripRoutes); // Use the trip routes
 // Serve static files like images from the 'uploads' folder
 app.use('/uploads', express.static('uploads'));
 
-
+app.get('/', (req, res) => {
+    try {
+        res.json("AAyavo jalii aayaa")
+    } catch (error) {
+        res.json(error)
+    }
+})
 
 
 // Check if email is associated with a logged-in user

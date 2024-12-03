@@ -44,7 +44,7 @@ app.use('/uploads', express.static('uploads'));
 
 app.get('/', (req, res) => {
     try {
-        res.json("AAyavo jalii aayaa")
+        res.json("sucessfully hosted")
     } catch (error) {
         res.json(error)
     }

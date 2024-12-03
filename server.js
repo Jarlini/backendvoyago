@@ -36,7 +36,7 @@ app.use('/api/packages', packageRoutes); // Package routes
 app.use('/api/users', userRoutes); // User routes
 app.use('/api/admin', adminRoutes); // Admin routes
 app.use('/api/bookings', bookingRoutes); // Booking routes
-app.use('/api/payments', paymentRoutes); // Payment routes
+app.use('/api/payments', paymentRoutes); //register Payment routes
 
 app.use('/api/admin', tripRoutes); // Use the trip routes
 // Serve static files like images from the 'uploads' folder
